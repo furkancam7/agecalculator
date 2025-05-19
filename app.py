@@ -4,7 +4,7 @@ from retirement_calculator import UserProfile, RetirementCalculator
 from report_generator import ReportGenerator
 
 # Initialize report generator with Gemini API key
-GEMINI_API_KEY = "AIzaSyAhSQQh3oGf7J7w11W2WciLgxO6bLKGzbM"
+GEMINI_API_KEY = ""
 report_generator = ReportGenerator(api_key=GEMINI_API_KEY)
 
 def create_retirement_profile(
